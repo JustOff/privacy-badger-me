@@ -1,9 +1,8 @@
 # IMPORTANT 
-This version of privacy badger is no longer maintained. All of the source code for privacy badger for Firefox, Chrome, and Opera now lives in one repository at: https://github.com/EFForg/privacybadger
+This version of privacy badger is the legacy version (pre-WebExtensions) which has been released to us by Cooper Quintin (cjq at eff dot org) to make a community fork of under the same name for Pale Moon use.
 
-Issues opened on this repository will not be checked. 
+This version currently does not have a maintainer. If you feel you can help, our door is open!
 
-# Privacy Badger Firefox [![Build Status](https://travis-ci.org/EFForg/privacybadgerfirefox-legacy.svg)](https://travis-ci.org/EFForg/privacybadgerfirefox-legacy)
 
 ## Introduction
 
