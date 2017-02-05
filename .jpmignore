@@ -4,7 +4,7 @@
 /.jpmignore
 /CONTRIBUTING.md
 /CREDITS
-/doc
+/doc/
 /Makefile
 /README.md
 /test/
