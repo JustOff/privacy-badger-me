@@ -12,6 +12,10 @@
   "license": "GPL 3",
   "version": "1.8.1",
   "main": "lib/main.js",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}": ">=27.1.0b1"
+  },
   "preferences": [{
     "name": "heuristicEnabled",
     "title": "Automatic blocking enabled",
