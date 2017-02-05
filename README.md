@@ -1,37 +1,12 @@
 # IMPORTANT 
-This version of privacy badger is the legacy version (pre-WebExtensions) which has been released to us by Cooper Quintin (cjq at eff dot org) to make a community fork of under the same name for Pale Moon use.
+This version of Privacy Badger is the legacy version (pre-WebExtensions) which has been released to us by Cooper Quintin (cjq at eff dot org) to make a community fork of under the same name for Pale Moon use.
 
 This version currently does not have a maintainer. If you feel you can help, our door is open!
 
 
 ## Introduction
 
-Privacy Badger is a Firefox add-on that blocks spying ads and invisible trackers as you browse. [More info here.](https://www.eff.org/privacybadger)
-
-## Developer guide
-
-### Getting started
-1. Install the `jpm` package using npm. `npm install -g jpm`
-2.  Once the SDK is activated, run `jpm -b <path/to/firefox> run` to launch a clean Firefox profile with Privacy Badger installed. Run `jpm -b <path/to/firefox> test` to run tests. `jpm xpi` creates a package (.xpi file) that you can install by loading into Firefox.
-
-### Important directories and files
-
-    hooks/                    Git hooks. You can use them by copying into `.git/hooks`. The pre-push hook runs tests and cancels the push if they fail.
-
-    release-utils/            | Files for making a self-hosted release of Privacy Badger and updates that are signed with an offline private key.
-    Makefile                  | You probably don't need to worry about these unless you're a project maintainer.
-
-    package.json              |
-    data/                     |
-    lib/                      | Most of the code that runs in the add-on. See SDK documentation for more info on the directory structure.
-    test/                     |
-    defaults/                 |
-
-    doc/                      Changelog, style guide, how to make a signed release, other documentation TBD.
-
-### Contributing
-
-Before you submit a pull request please consult the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
+Privacy Badger is a add-on that blocks spying ads and invisible trackers as you browse. [More info here.](https://www.eff.org/privacybadger)
 
 ## How heuristic blocking works
 
@@ -52,6 +27,12 @@ Note that users can manually set domains to be unblocked (green), cookie-blocked
 
 By default, Privacy Badger sends the Do Not Track header on all requests. It also clears the referer for all requests that are cookie-blocked.
 
-## Contact
+## Developer guide
 
-The current maintainers of this project are  Cooper Quintin (cjq at eff dot org) and Noah Swartz (noah at eff dot org). There is also a [mailing list](https://lists.eff.org/mailman/listinfo/privacybadger) to discuss Privacy Badger development for both Firefox and Chrome.
+### Getting started
+1. Install the `jpm` package using npm. `npm install -g jpm`
+2.  Once the SDK is activated, run `jpm -b <path/to/palemoon> run` to launch a clean Pale Moon profile with Privacy Badger installed. Run `jpm -b <path/to/palemoon> test` to run tests. `jpm xpi` creates a package (.xpi file) that you can install by loading into Firefox.
+
+### Contributing
+
+Before you submit a pull request please consult the [CONTRIBUTING.md](doc/CONTRIBUTING.md) file.
