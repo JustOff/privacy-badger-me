@@ -1,0 +1,11 @@
+/.git
+/.github
+/.gitignore
+/.jpmignore
+/CONTRIBUTING.md
+/CREDITS
+/doc
+/Makefile
+/README.md
+/test/
+/yellowlist-criteria.txt

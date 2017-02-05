@@ -1,13 +1,2 @@
-*.swp
-.DS_Store
-addon-sdk-*
 *.xpi
 *~
-release-utils/pkg
-release-utils/xpi
-release-utils/disconnect-content.txt
-release-utils/post-release.sh
-**packages
-bootstrap.js
-install.rdf
-src
